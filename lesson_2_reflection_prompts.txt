@@ -28,8 +28,11 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-It merges the files in a very drastic and dangerous way. However it can make collabaration easier.
-A merge node contains information on both its parents.
+	It merges the files in a very drastic and dangerous way. However it can make collabaration easier.
+	A merge node contains information on both its parents.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Automatic merges will save a large amount of time when working on big projects.
+	However, this comes at the cost of merges doing dangerous things.
