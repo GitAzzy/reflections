@@ -1,19 +1,24 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-"git init" creates the repo. At this point you can use "git status" to determine it is created correctly.
-No commits exist at this point and "git log" will throw a bad head error.
+	"git init" creates the repo. At this point you can use "git status" to determine it is created correctly.
+	No commits exist at this point and "git log" will throw a bad head error.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-The staging area is an intermitent commit to allow the user to decide what files to be pushed in a commit.
-This allows commits to be distributed into logical units and allows commit messages to be more relevant.
+	The staging area is an intermitent commit to allow the user to decide what files to be pushed in a commit.
+	This allows commits to be distributed into logical units and allows commit messages to be more relevant.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	You only add the files to the staging area which are relevant to each logical change.
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+You can split main themes of development into separate branches to make a better logical separation.
 
 How do the diagrams help you visualize the branch structure?
 
