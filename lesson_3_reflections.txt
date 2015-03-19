@@ -25,7 +25,9 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Separating the program into logical units of work.
+    This will make conflicting changes very difficult to deal with.
+    However it stops git from messing up your program.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
